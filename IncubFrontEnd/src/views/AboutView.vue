@@ -1,15 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <h1 class="text-red-600">about</h1>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+<script>
+
+import  Modal  from '../components/modle.vue';
+export default{
+  components:{
+    Modal
   }
 }
-</style>
+
+</script>
